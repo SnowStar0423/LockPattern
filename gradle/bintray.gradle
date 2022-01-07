@@ -1,0 +1,28 @@
+apply plugin: 'com.novoda.bintray-release'
+
+allprojects {
+    repositories {
+        jcenter()
+    }
+    tasks.withType(Javadoc) {
+        options{
+            encoding "UTF-8"
+            charSet 'UTF-8'
+            links "http://docs.oracle.com/javase/7/docs/api"
+        }
+        options.addStringOption('Xdoclint:none', '-quiet')
+    }
+}
+
+
+def siteUrl = 'https://github.com/HenleyLee/LockPattern'
+
+publish {
+    userOrg = 'henleylee'
+    groupId = 'com.henley.android'
+    artifactId = 'lockpattern'
+    publishVersion = '1.0.1'
+    uploadName = 'LockPattern'
+    desc = 'Android 手势解锁、九宫格图案解锁（默认为3*3九空格，支持N*N宫格扩展）。'
+    website = siteUrl
+}

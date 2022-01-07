@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="pattern_side" format="integer|reference" />
+    <attr name="pattern_normalColor" format="color|reference" />
+    <attr name="pattern_checkColor" format="color|reference" />
+    <attr name="pattern_errorColor" format="color|reference" />
+    <attr name="pattern_fillColor" format="color|reference" />
+    <attr name="pattern_strokeWidth" format="dimension|reference" />
+    <attr name="pattern_lineWidth" format="dimension|reference" />
+
+    <declare-styleable name="PatternIndicatorView">
+        <attr name="pattern_side" />
+        <attr name="pattern_normalColor" />
+        <attr name="pattern_checkColor" />
+        <attr name="pattern_errorColor" />
+        <attr name="pattern_fillColor" />
+        <attr name="pattern_strokeWidth" />
+        <attr name="pattern_lineWidth" />
+    </declare-styleable>
+
+    <declare-styleable name="PatternLockerView">
+        <attr name="pattern_side" />
+        <attr name="pattern_normalColor" />
+        <attr name="pattern_checkColor" />
+        <attr name="pattern_errorColor" />
+        <attr name="pattern_fillColor" />
+        <attr name="pattern_strokeWidth" />
+        <attr name="pattern_lineWidth" />
+        <attr name="pattern_freezeDuration" format="integer|reference" />
+        <attr name="pattern_enableAutoClean" format="boolean|reference" />
+        <attr name="pattern_enableSkipMode" format="boolean|reference" />
+        <attr name="pattern_enableInStealthMode" format="boolean|reference" />
+        <attr name="pattern_enableHapticFeedback" format="boolean|reference" />
+    </declare-styleable>
+
+</resources>

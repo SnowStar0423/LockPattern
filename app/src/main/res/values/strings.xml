@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">LockPattern</string>
+
+    <string name="pattern_create">Pattern Create</string>
+    <string name="pattern_check">Pattern Check</string>
+    <string name="pattern_setting">Pattern Setting</string>
+
+</resources>

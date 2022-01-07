@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <com.henleylee.lockpattern.PatternIndicatorView
+        android:id="@+id/pattern_indicator_view"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_margin="10dp" />
+
+    <TextView
+        android:id="@+id/pattern_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="Draw Unlock Pattern"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="14sp" />
+
+    <com.henleylee.lockpattern.PatternLockerView
+        android:id="@+id/pattern_locker_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="30dp" />
+
+</LinearLayout>

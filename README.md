@@ -1,11 +1,10 @@
 # LockPattern —— Android
 This is a lock pattern in the android.
 
-![](/screenshots/status_normal.jpg)
-![](/screenshots/status_check.jpg)
-![](/screenshots/status_error.jpg)
+![](/screenshots/pattern_check.png)
+![](/screenshots/pattern_check_error.png)
+![](/screenshots/pattern_create.png)
 
-![](/screenshots/status_custom_1.jpg)
-![](/screenshots/status_custom_2.jpg)
-![](/screenshots/status_custom_3.jpg)
+![](/screenshots/pattern_create_confirm.png)
+![](/screenshots/pattern_setting.png)
 

@@ -1,6 +1,3 @@
-![Top Languages Card](https://github-readme-stats.vercel.app/api/top-langs/?username=SnowStar0423&layout=compact)
-
-
 # LockPattern —— Android
 This is a lock pattern in the android.
 
